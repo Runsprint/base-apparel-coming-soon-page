@@ -80,6 +80,7 @@ p{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
     
     .content{
@@ -90,10 +91,13 @@ p{
     }
     .desktop-hero{
         display: flex;
+        width: 610px;
+        height: 800px;
     }
     body{
         background-image: url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
+        width: 1440px;
     }
     .logo{
         width: 158px;
