@@ -1,0 +1,118 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    width: 375px;
+}
+.desktop-hero{
+    display: none;
+}
+.logo{
+    padding: 32px;
+}
+.content{
+    padding: 32px;
+}
+span{
+    font-weight: 300;
+    color:  #CE9898;
+}
+h1{
+   font-Weight:600;
+   font-Size:40px;
+   Line-height:42px;
+   letter-spacing:10.83px;
+   text-align: center;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #CE9898;
+    margin-top: 16px;
+}
+.buttons-div{
+    margin-top: 32px;
+}
+.forgmail{
+    width: 311px;
+    height: 48px;
+    border-radius: 28px;
+    border-color: #CE9898;
+    border-style: solid;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    color: #CE9898;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    opacity: 50%;
+    padding-right: 177px;
+}
+.thefirst{
+    position: relative;
+    left: 247px;
+    bottom: 48px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    border: none;
+    width: 64px;
+    height: 48px;
+    border-radius: 28px;
+}
+.arrow{
+    width: 8.84px;
+    height: 17.67px;
+}
+@media(min-width:1440px){
+    .mobile-hero{
+        display: none;
+    }
+    .desktop-hero{
+        display: flex;
+    }
+    body{
+        display: flex;
+        gap:156px;
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+    }
+    main{
+        display: grid;
+        padding-left: 165px;
+        padding-top: 74.9px;
+    }
+    .logo{
+        width: 158px;
+    }
+    span{
+        line-height: 64px;
+    }
+    h1{
+        font-size: 64px;
+        letter-spacing: 17.32px;
+        line-height: 71px;
+        text-align: left;
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+        width: 444px;
+        margin-top: 32px;
+    }
+    .buttons-div{
+        margin-top: 40px;
+    }
+    .forgmail{
+        width: 445px;
+        height: 56px;
+        font-size: 16px;
+        padding-right: 280px;
+    }
+    .thefirst{
+        width: 100px;
+        height: 56px;
+        left: 343px;
+        bottom: 56px;
+    }
+
+}
