@@ -1,14 +1,23 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
-    width: 375px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .desktop-hero{
     display: none;
 }
 .logo{
+    width: 100px;
     padding: 32px;
+    position: relative;
+    right: 83px;
 }
+
 .content{
     padding: 32px;
 }
@@ -22,6 +31,7 @@ h1{
    Line-height:42px;
    letter-spacing:10.83px;
    text-align: center;
+   width: 311px;
 }
 p{
     font-weight: 400;
@@ -30,15 +40,14 @@ p{
     text-align: center;
     color: #CE9898;
     margin-top: 16px;
+    width: 311px;
 }
-.buttons-div{
-    margin-top: 32px;
-}
+
 .forgmail{
     width: 311px;
     height: 48px;
     border-radius: 28px;
-    border-color: #CE9898;
+    border-color:#CE9898;
     border-style: solid;
     background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
     color: #CE9898;
@@ -47,6 +56,7 @@ p{
     line-height: 28px;
     opacity: 50%;
     padding-right: 177px;
+    margin-top: 30px;
 }
 .thefirst{
     position: relative;
@@ -61,8 +71,20 @@ p{
 .arrow{
     width: 8.84px;
     height: 17.67px;
+    position: relative;
+    left: 29px;
+    top: 12px;
 }
 @media(min-width:1440px){
+    .for-center{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .content{
+        padding-left: 165px;
+    }
     .mobile-hero{
         display: none;
     }
@@ -70,18 +92,17 @@ p{
         display: flex;
     }
     body{
-        display: flex;
-        gap:156px;
         background-image: url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
     }
-    main{
-        display: grid;
-        padding-left: 165px;
-        padding-top: 74.9px;
-    }
     .logo{
         width: 158px;
+        position: relative;
+        right: 65px;
+    }
+    .arrow{
+        left: 48px;
+        top: 17px;
     }
     span{
         line-height: 64px;
